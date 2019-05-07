@@ -1,0 +1,17 @@
+{
+  "testStructure": {
+    "prefix": "test",
+    "body": [
+      "import React from 'react';",
+      "import { shallow, mount } from 'enzyme';",
+      "import { $1 } from 'react-native';",
+      "",
+      "describe('Testing ${2:component} Component', () => {",
+      "\tit('shold ${3:item}', () => {",
+      "\t\tconst component = $4",
+      "\t});",
+      "});"
+    ],
+    "description": "Basic test structure"
+  }
+}
